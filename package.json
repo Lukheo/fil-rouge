@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "hbs": "^4.2.0",
+    "nodemon": "^3.0.3"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "fil-rouge",
+  "version": "1.0.0",
+  "description": "projet fil rouge theo lucas",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC"
+}
