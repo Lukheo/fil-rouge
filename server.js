@@ -16,6 +16,7 @@ app.set('views', './views');
 app.use(express.static(path.join(__dirname, '../public')));
 app.use('/css', express.static(path.join(__dirname, 'public/css')));
 app.use('/images', express.static(path.join(__dirname, 'public/images')));
+app.use('/script', express.static(path.join(__dirname, 'public/js')));
 
 
 app.get('/', (req, res) => {

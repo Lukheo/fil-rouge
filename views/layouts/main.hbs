@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="script/script.js"></script>
 
     <title>Legoddit</title>
 </head>
@@ -14,6 +15,7 @@
         <h1><a href="/"><img src="images/upvoteV1.gif" alt="logo_legoddit" id="logo"></a>Legoddit</h1>
         <nav>
             <ul>
+                <li><a href="/">Accueil</a></li>
                 <li><a href="/connexion">Mon compte</a></li>
                 <li><a href="/actualites">Actualités</a></li>
                 <li><a href="https://www.lego.com">Lego</a></li>
@@ -25,20 +27,4 @@
 
     {{{body}}}
 </body>
-<script>
-    window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    document.querySelector("header").style.display = "inline-flex";
-    document.querySelector("h1").style.fontSize = "1.5em";
-    document.querySelector("#logo").style.height = "32px";
-  } else {
-    document.querySelector("header").style.display = "block";
-    document.querySelector("h1").style.fontSize = "3em";
-    document.querySelector("#logo").style.height = "64px";
-
-  }
-} 
-</script>
 </html>
